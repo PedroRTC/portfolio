@@ -5,6 +5,7 @@ let html=document.querySelector(".html")
 let css=document.querySelector(".css")
 let js=document.querySelector(".javascript")
 let react=document.querySelector(".react")
+let github=document.querySelector(".github")
 
 let equipe=document.querySelector(".equipe")
 let comunicacao=document.querySelector(".comunicacao")
@@ -40,7 +41,7 @@ habiliScroll=()=>{
     item.forEach(element=>{
         let windowTop
         if (window.innerWidth >967) {
-             windowTop = window.pageYOffset + window.innerHeight * 3;
+             windowTop = window.pageYOffset + window.innerHeight * 3.10;
         }else{
             windowTop = window.pageYOffset + window.innerHeight * 3.50;
         } 
@@ -60,9 +61,11 @@ habiliScroll=()=>{
               css.style.width=" 64%"
               js.style.width="51%"
               react.style.width="40%"
+              github.style.width="70%"
               equipe.style.width="95%"
               comunicacao.style.width="90%"
               comprometimento.style.width="100%"
+              
              
         }else{
            
@@ -70,6 +73,7 @@ habiliScroll=()=>{
             css.style.width="0%"
             js.style.width="0%"
             react.style.width="0%"
+            github.style.width="0%"
             equipe.style.width="0%"
             comunicacao.style.width="0%"
             comprometimento.style.width="0%"

@@ -94,6 +94,13 @@
     
 }
 
+
+.github{
+    width: 0%;
+    transition: all 1.2s;
+    
+}
+
 #ab_pessoais{
     margin-top:30px;
 }
