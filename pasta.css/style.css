@@ -158,16 +158,26 @@ transition: all 0.5s;
 }
 
 #redes{
-   margin-top: 5px;
-   margin-bottom: 30px;
-   padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px ;
+    gap: 35px;
+  
+}
+
+#redes a{
+    text-decoration: none;
 }
 
 #redes i{
-    margin: 0px 10px;
     cursor: pointer;
-  background-color: blueviolet;
-    padding: 7px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30px ;
+    height: 30px;
     color: white;
     border-radius: 50%;
     transition: all 0.3s;

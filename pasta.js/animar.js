@@ -43,20 +43,21 @@ habiliScroll=()=>{
         if (window.innerWidth >967) {
              windowTop = window.pageYOffset + window.innerHeight * 3.10;
         }else{
-            windowTop = window.pageYOffset + window.innerHeight * 3.50;
+            windowTop = window.pageYOffset + window.innerHeight * 4;
         } 
 
 
         if(window.innerWidth < 724){
-            windowTop = window.pageYOffset + window.innerHeight * 5;
+            windowTop = window.pageYOffset + window.innerHeight *5.50;
         }
+
+      
 
        
             
        
        
         if(windowTop > element.offsetTop || windowTop == item_menu.offsetTop){
-          
               html.style.width="80%"
               css.style.width=" 64%"
               js.style.width="51%"
