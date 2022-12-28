@@ -24,41 +24,53 @@
 }
 
 
-.projeto a{
-    display: flex;
-    justify-content:center;
-    align-items:flex-end;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    background-color: transparent;
-    border-radius: 20px;
-    color: white;
-}
-.projeto span{
-    position: absolute;
-    background-color: rgb(137, 43, 226);
-    display: flex;
+.descPro{
+    display:flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 0%;
-    transition: all 0.7s ;
+    background-color: rgba(137, 43, 226, 0.79);
+    color: black;
+    height:100% ;
+    text-decoration: none;
+    text-align: left;
     opacity: 0;
-}
-.projeto i{
-    padding:5px ;
-    transition: all 0.7s;
-    
-   
+    transition: all 0.5s;
+
     
 }
 
-.projeto i:hover{
-    transform: scale(1.2);
+.descPro:hover{
+    opacity: 1;
+}
+
+.linkPro{
+    margin: auto;
+    text-align: center;
+}
+
+.linkPro p{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    margin: auto;
+    text-align: left;
+    width: 90%;
+    height:150px ;
     
 }
 
+
+
+.linkPro i{
+color: white;
+transform: scale(1.5);
+margin: 10px 20px;
+transition: all 0.5s;
+}
+
+.linkPro i:hover{
+    transform: scale(1.9);
+}
 
 
 #pro01{
