@@ -20,7 +20,6 @@
     margin: 5px;
     background-size: cover;
     cursor: pointer;
-    box-shadow: 0px 0px 5px rgb(160, 160, 160);
 }
 
 
@@ -84,7 +83,7 @@ transition: all 0.5s;
 }
 
 #pro03{
-    background-image: url("../img/pro03.png");
+    background-image: url("../img/arte-pizza.png");
    
 }
 
