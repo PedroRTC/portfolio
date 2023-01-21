@@ -12,6 +12,15 @@ body{
     transition: all 0.7s;
 }
 
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
 
 html{
     scroll-behavior: smooth;

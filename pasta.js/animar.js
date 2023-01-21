@@ -98,22 +98,3 @@ window.addEventListener("scroll",()=>{
 
 
 
-function animarPrjeto(){
-    for (let index = 0; index < projeto.length; index++) {
-
-        projeto[index].addEventListener("mouseover",()=>{
-
-            i_projeto[index].style.opacity="1"
-            i_projeto[index].style.height= "100%"
-        })
-
-        projeto[index].addEventListener("mouseleave",()=>{
-
-            i_projeto[index].style.height= "0%"
-            i_projeto[index].style.opacity="0"  
-        })
-        
-    }
-}
-
-animarPrjeto()
